@@ -1,36 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --main-color:#f6e232;
-    --second-color:#2a2929;
-    --white-color:#f2f2f2;
-    --font-size:18px;
+:root {
+    --main-color: #f6e232;
+    --second-color: #2a2929;
+    --white-color: #f2f2f2;
+    --font-size: 18px;
     --max-width: 1400px;
-    --nav-height:70px;
+    --nav-height: 70px;
 
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-::selection{
+::selection {
     background-color: var(--main-color);
     color: var(--second-color);
 }
 
-body{
+body {
     background-color: var(--second-color);
     color: var(--white-color);
     font-family: "Open Sans";
     font-size: var(--font-size);
 }
 
-header{
+header {
     display: flex;
     background-color: var(--main-color);
     color: var(--second-color);
@@ -38,70 +38,70 @@ header{
     top: 0;
 }
 
-header div{
+header div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.contenedor{
+.contenedor {
     width: 100%;
     max-width: var(--max-width);
     margin: 0 auto;
 }
 
-nav{
+nav {
     height: var(--nav-height);
 }
 
-.nav-contenedor{
+.nav-contenedor {
     display: flex;
     align-items: center;
 }
 
-.enlaces{
+.enlaces {
     text-decoration: none;
     color: inherit;
     font-weight: 700;
-    margin:20px;
+    margin: 20px;
 }
 
-.enlaces:hover{
+.enlaces:hover {
     background-color: var(--second-color);
     color: var(--main-color);
 }
 
-.principal{
+.principal {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
 }
 
-.vh-100{
+.vh-100 {
     height: calc(100vh - var(--nav-height));
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.contenedor-textos{
+.contenedor-textos {
     flex-basis: 45%;
-} 
+}
 
-.titulo{
+.titulo {
     font-size: 2.5rem;
     font-weight: 700;
 }
 
-.copy{
+.copy {
     margin: 20px 0;
     font-weight: 300;
     font-size: 1.2rem;
 }
 
-.cta{
+.cta {
     display: inline-block;
     background-color: var(--main-color);
     color: var(--second-color);
@@ -111,13 +111,13 @@ nav{
     border-radius: 30px;
 }
 
-.cta--negro{
+.cta--negro {
     background-color: var(--second-color);
     color: var(--white-color);
 }
 
 /* ----------Nosotros:----------- */
-#nosotros{
+#nosotros {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -125,43 +125,86 @@ nav{
 
 /* ---------------Servicios:-------- */
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.card__item{
-max-width: 350px;
-width: 30%;
-background-color: var(--white-color);
-color: var(--second-color);
-text-align: center;
-padding: 30px 0;
-border-radius: 10px;
-box-shadow: 00 5px rgba(0, 0, 0, 0.5);
-}
-.card__item--activo{
+.card__item {
     max-width: 350px;
- background-color: var(--main-color);
- color: var(--second-color);
- text-align: center;
- padding: 30px 0;
- border-radius: 10px;
- box-shadow: 00 5px rgba(0, 0, 0, 0.5);
-}
-.card__plan{
-color: var(--second-color);
-margin-bottom: 20px;
+    width: 30%;
+    background-color: var(--white-color);
+    color: var(--second-color);
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-.card__precio{
-font-size: 3rem;
-color: var(--second-color);
-margin-bottom: 20px;
+.card__item--activo {
+    max-width: 350px;
+    background-color: var(--main-color);
+    color: var(--second-color);
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px;
+    box-shadow: 00 5px rgba(0, 0, 0, 0.5);
 }
 
-.card__caracteristica{
-color: var(--second-color);
-margin-bottom: 20px;
+.card__plan {
+    color: var(--second-color);
+    margin-bottom: 20px;
+}
+
+.card__precio {
+    font-size: 3rem;
+    color: var(--second-color);
+    margin-bottom: 20px;
+}
+
+.card__caracteristica {
+    color: var(--second-color);
+    margin-bottom: 20px;
+}
+
+/* ------------------------------------Galería------------------------- */
+.galeria {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img {
+    width: 30%;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* --------------contacto------------ */
+.contacto {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    font-size: var(--font-size);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    resize: none;
 }

@@ -15,7 +15,7 @@
     <header>
         <div class="contenedor">
             <a href="#">
-                <img src="logo.png" alt="logo">
+                <img src="img/logo.png" alt="logo">
             </a>
             <nav class="nav-contenedor">
                 <a href="#inicio" class="enlaces">Inicio</a>
@@ -37,7 +37,7 @@
                     <p class="copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsam?</p>
                     <a href="#" class="cta">Aprende ahora</a>
                 </div>
-                <img src="nerd.png" alt="nerd" class="ilustracion">
+                <img src="img/nerd.png" alt="nerd" class="ilustracion">
             </div>
 
         </section>
@@ -45,7 +45,7 @@
         <section id="nosotros">
             <div class="contenedor nosotros vh-100 contenedor-textos">
                 <div>
-                    <img src="about.png" alt="nosotros">
+                    <img src="img/about.png" alt="nosotros">
                 </div>
                 <div>
                     <h2 class="titulo">
@@ -106,24 +106,58 @@
         </section>
 
         <section id="galeria">
-            <div class="contenedor">
-                <div class="contenedor vh-100">
-                    <div class="text center">
-                        <h1 class="titulo">Galería</h1>
-                        <p class="copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsam?</p>
-                    </div>
+            <div class="contenedor vh-100">
+                <div class="text center">
+                    <h2 class="titulo">Galería</h2>
+                    <p class="copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsam
+                    </p>
+                </div>
 
+            </div>
+
+            <div class="galeria">
+                <img src="img/uno.jpg" alt="img" class="img">
+                <img src="img/dos.jpg" alt="img" class="img">
+                <img src="img/tres.jpg" alt="img" class="img">
+                <img src="img/cuatro.jpg" alt="img" class="img">
+                <img src="img/cinco.jpg" alt="img" class="img">
+                <img src="img/seis.jpg" alt="img" class="img">
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="contenedor vh-100">
+                <div class="text center">
+                    <h2 class="titulo">Contáctenos</h2>
+                    <p class="copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsam
+                    </p>
                 </div>
             </div>
-
-            <div>
-                <img src="img/uno.jpg" alt="img">
-                <img src="img/dos.jpg" alt="img">
-                <img src="img/tres.jpg" alt="img">
-                <img src="img/cuatro.jpg" alt="img">
-                <img src="img/cinco.jpg" alt="img">
-                <img src="img/seis.jpg" alt="img">
+            <div class="contenedor vh-100" class="form-group">
+                <form class="contacto">
+                    <div class="form-group">
+                        <label for="nombre">Nombre: </label>
+                        <input class="input" type="text" id="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellidos">Apellidos: </label>
+                        <input class="input" type="text" id="apellidos">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input class="input" type="text" id="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input class="input" type="text" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="input" id="mensaje" cols="12" rows="12"></textarea>
+                    </div>
+                    <button type="button" class="cta">Enviar</button>
+                </form>
             </div>
+
         </section>
     </main>
 </body>
