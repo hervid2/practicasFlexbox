@@ -111,9 +111,14 @@ nav {
     border-radius: 30px;
 }
 
-.cta--negro {
+.cta__negro {
+    display: inline-block;
     background-color: var(--second-color);
     color: var(--white-color);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 16px 30px;
+    border-radius: 30px;
 }
 
 /* ----------Nosotros:----------- */
@@ -199,7 +204,7 @@ nav {
 
 }
 
-.input {
+.input .textarea {
     width: 100%;
     padding: 12px;
     font-size: var(--font-size);
@@ -207,4 +212,24 @@ nav {
     border: none;
     outline: none;
     resize: none;
+}
+/* -----------------media-queries-------------- */
+
+@media (max-width:800px){
+    .principal{
+        flex-direction:column;
+    }
+    
+    .ilustracion{
+        order: 1;
+    }
+    .contenedor-textos{
+        order: 2;
+      
+}
+
+.nosotros{
+    flex-direction: column;
+}
+
 }
