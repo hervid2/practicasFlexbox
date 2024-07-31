@@ -17,6 +17,6 @@ html {
 body {
     background-color: var(--second-color);
     color: var(--white-color);
-    font-family: "Open Sans";
+    font-family: "Montserrat";
     font-size: var(--font-size);
 }

@@ -1,7 +1,13 @@
-.text-center {
-    text-align: center;
+.contenedor{
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
 }
 
-.contenedor-textos {
-    flex-basis: 45%;
+.vh-100{
+    height: calc(100vh - var(--nav-height));
+}
+
+.text-center {
+    text-align: center;
 }

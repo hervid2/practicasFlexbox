@@ -14,15 +14,46 @@
 <body>
     <header>
         <div class="contenedor">
-            <a href="#">
-                <img src="assets/img/logo.png" alt="logo">
-            </a>
-            <nav class="nav-contenedor">
-                <a href="#inicio" class="enlaces">Inicio</a>
-                <a href="#nosotros" class="enlaces">Nosotros</a>
-                <a href="#servicios" class="enlaces">Servicios</a>
-                <a href="#galeria" class="enlaces">Galería</a>
-                <a href="#contacto" class="enlaces">Contacto</a>
+            <nav class="nav">
+              <div class="nav__contenedor">
+                  <!-- Logo -->
+                  <figure class="nav__figure">
+                    <img src="assets/img/logo.png" class="nav__logo" alt="logo">
+                </figure>
+                <!-- Botón -->
+                <label class="nav__toggle">
+                    <input type="checkbox" class="nav__input">
+                </label>
+
+                <!-- Navegación -->
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#inicio" class="nav__link">Inicio</a>
+                    </li>
+                </ul>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#nosotros" class="nav__link">Nosotros</a>
+                    </li>
+                </ul>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#servicios" class="nav__link">Servicios</a>
+                    </li>
+                </ul>
+                <ul class="nav__list">
+                    <li class="nav__item">
+
+                        <a href="#galeria" class="nav__link">Galería</a>
+                    </li>
+                </ul>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#contacto" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+              </div>
+
             </nav>
         </div>
     </header>
