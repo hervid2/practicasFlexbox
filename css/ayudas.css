@@ -1,0 +1,7 @@
+.text-center {
+    text-align: center;
+}
+
+.contenedor-textos {
+    flex-basis: 45%;
+}
