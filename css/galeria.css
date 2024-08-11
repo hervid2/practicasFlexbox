@@ -1,4 +1,4 @@
-/* ------------------------------------Galería------------------------- */
+
 .galeria {
     margin: 0 auto;
     display: flex;
@@ -11,4 +11,10 @@
     height: 250px;
     border-radius: 5px;
     margin-bottom: 30px;
+}
+
+@media(width < 800){
+    .img{
+        height: auto;
+    }
 }

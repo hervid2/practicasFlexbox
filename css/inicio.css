@@ -41,3 +41,19 @@
     padding: 16px 30px;
     border-radius: 30px;
 }
+
+@media(width < 800px) {
+    .cta-inicio {
+        margin: 0 40%;
+        margin-top: 40px;
+    }
+
+    .contenedor-textos {
+        text-align: center;
+    }
+
+     .titulo-inicio,.copy-inicio{ 
+        margin: 20px 0;
+    }  
+
+}    
